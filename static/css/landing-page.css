@@ -17,8 +17,27 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Arial,sans-serif;
     font-weight: 700;
+}
+
+h1 {
+    font-family: 'Helvetica Neue',sans-serif;
+    font-size: 275px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 1;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 32px;
+    margin: 0 0 72px;
+    text-align: center;
+    margin-top: 20px;
 }
 
 .lead {
