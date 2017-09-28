@@ -9,7 +9,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="page-scroll navbar-brand" href="#intro"><img style="max-width: 100px; max-height: 100px; margin-top: -20px;" src="img/logo.png" alt="Mindsight"></a>
+            <a class="page-scroll navbar-brand" href="#intro"><img style="max-width: 125px; max-height: 150px; margin-top: -22px;" src="img/logo.png" alt="Mindsight"></a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -49,11 +49,9 @@
 			    <h1>{{ .Site.Title }}</h1>
 			    <h3>{{ .Site.Params.description }}</h3>
 			    <hr class="intro-divider">
-			    {{ if isset .Site.Params "social" }}
-			    <ul class="list-inline intro-social-buttons">
-				        {{ partial "social.html" . }}
-			    </ul>
-			    {{ end }}
+                <a href="#" class="btn btn-default btn-lg">
+                    <span class="network-name">See How</span>
+                </a>
 			</div>
 		    </div>
 		</div>
